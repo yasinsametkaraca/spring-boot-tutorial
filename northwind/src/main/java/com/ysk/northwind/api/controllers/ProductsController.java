@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin 
 @RestController //sen bir controller sın diyoruz spring e. Api Business katmanına, Business katmanı DataAccess katmanına istekde bulunur.
 @RequestMapping("/api/products") ///api/products diye istek gelirse bu class karşılar. Birden çok modül için birden fazla controller olabilir.
 public class ProductsController {  //Api kısmıdır. Dış dünyayla iletişim kurulan yerdir.

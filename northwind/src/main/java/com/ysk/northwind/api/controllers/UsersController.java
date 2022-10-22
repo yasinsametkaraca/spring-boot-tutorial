@@ -43,5 +43,7 @@ public class UsersController {
         return errors;
     }
 
+    //custom validation (mesela emailin tekrar edilmemesi) ve spring security işlemleri yapılacak
+
 
 }
